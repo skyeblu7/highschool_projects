@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=letters
+comment0.target=PossibleWords(int)
+comment1.params=letter
+comment1.target=int[]\ guessLetter(java.lang.String)
+comment2.params=letter
+comment2.target=java.util.ArrayList\ getListOfListsOfWords(java.lang.String)
+comment3.params=
+comment3.target=java.util.ArrayList\ getUnguessedLetters()
+comment4.params=
+comment4.target=java.lang.String\ getWord()
+numComments=5

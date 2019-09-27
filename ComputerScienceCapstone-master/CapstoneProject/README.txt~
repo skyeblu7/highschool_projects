@@ -1,0 +1,60 @@
+EVIL HANGMAN capstone project.
+
+This game is like a normal game of hangman
+except the computer is designed to dodge the
+user's guesses by taking a bunch of words and
+continually filtering the list until there is
+only one word left. Basically, for every letter
+that the user guesses, the computer creates many
+lists of words where the position of each letter
+in each word is recorded. Then the computer 
+chooses the largest list to be it's 'Possible word'.
+For example, I guess the letter "e", the computer
+goes through a list of 100,000 words and makes 
+smaller lists based on the position. 
+["easy","envy"],["help","yelp","bent"]. Here the 
+computer made two lists based on the position of 
+the letter 'e' in each word. The computer would
+then choose the second list to be it's list of
+possible words because there are more words in it.
+
+This project let me learn how to read from a text
+file more clearly and show the beauty of making
+my own classes. such as my HiddenWord class. I love
+that class particularly because I thought it was
+going to take a long time to make, but it was actually
+quite easy and I only had to make minor changes to it/
+When I first made this project, I though I had it 
+completely worked out. And when I tested it, it 
+worked exactly as I planned it to (I didn't even 
+get many sintax errors :D). There was just one flaw:
+I didn't think of how to deal with double letters
+(or triple or quadruple). I still don't exactly know
+how to keep track of and organize the large word list
+by position of double or triple letters, my game so far 
+cannot do that. (I have a large block of code that I 
+commented out that I'm trying to make deal with this
+but it doesn't seem to be working yet). I also had to
+change some of my other classes a bit because of this 
+design flaw. I will solve this problem though! I WON'T
+LET THE COMPUTER BEAT ME!!!!
+
+INSTRUCTIONS TO RUN:
+-Run the main method from the "StartGame" class
+-The program should start and ask you how many letters
+you want the hidden word to be
+
+NOTICE:
+-The game will show you the list of words that the computer has filtered, this
+is for debugging purposes. I didn't remove it because it is very difficult to see 
+that the program is working without seeing the list being actively filtered.
+
+-The game does not correctly filter words that have more than one instace of the 
+guessed letter (Example: the word "letter" has two 't' letters, if the user
+guesses the letter 't', the program will only work with the first instance of the 
+letter and you will never be able to win.) I am working on this problem, it is not
+yet solved
+
+-The large list of words came from this website: 
+http://www-01.sil.org/linguistics/wordlists/english/ All other programming was 
+developed independently by me.

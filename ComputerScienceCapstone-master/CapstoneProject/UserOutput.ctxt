@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=length
+comment0.target=UserOutput(int)
+comment1.params=index
+comment1.target=java.lang.String\ getPhase(int)
+comment2.params=
+comment2.target=java.lang.String\ getAgain()
+comment3.params=
+comment3.target=java.lang.String\ getChooseLetters()
+comment4.params=letter
+comment4.target=int[]\ guessLetter(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getYouAlreadyGuessed()
+comment6.params=
+comment6.target=java.lang.String\ getWord()
+numComments=7
